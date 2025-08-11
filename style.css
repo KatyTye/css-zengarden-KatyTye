@@ -1,0 +1,26 @@
+/* ------------ IMPORTS ------------ */
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+/* ------------ BROWSER RESETS ------------ */
+* {
+	font-size: 1.25rem;
+	list-style-type: none;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	font-family: "Amatic SC", sans-serif;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	min-width: 100vw;
+	background-color: black;
+}
+
+ul,
+p,
+a {
+	color: #AB9F82;
+}
