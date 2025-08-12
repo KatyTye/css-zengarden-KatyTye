@@ -9,14 +9,14 @@
 	list-style-type: none;
 	box-sizing: border-box;
 	background-repeat: no-repeat;
-	font-family: sans-serif;
-	/* "Amatic SC",  */
+	font-family: georiga;
 }
 
 html,
 body {
 	margin: 0;
 	padding: 0;
+	line-height: 13pt;
 	min-height: 100vh;
 	min-width: 100vw;
 	background-color: black;
@@ -41,7 +41,11 @@ a {
 	background-image: url("/images/background-image.jpg");
 }
 
-#css-zen-garden .page-wrapper>div,
+#css-zen-garden #zen-supporting>div,
 #css-zen-garden .page-wrapper>section {
-	width: 464px;
+	margin-right: 280px;
+}
+
+#css-zen-garden #zen-summary p:first-of-type {
+	display: none;
 }

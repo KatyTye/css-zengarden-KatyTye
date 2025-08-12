@@ -1,1 +1,110 @@
 /* MAIN CONTENT STYLING */
+
+/* ARTICLES TOP */
+#css-zen-garden #zen-supporting h3,
+#css-zen-garden #zen-intro div:nth-of-type(2)>h3 {
+	height: 25px;
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 0px 0px -9px 27px;
+}
+
+#css-zen-garden #zen-intro div:nth-of-type(2)>h3 {
+	background: transparent url("/images/txt_sowhatisthisabout.gif") no-repeat left top;
+}
+
+#css-zen-garden #zen-supporting div:nth-of-type(1)>h3 {
+	background: transparent url("/images/txt_participation.gif") no-repeat left top;
+}
+
+#css-zen-garden #zen-supporting div:nth-of-type(2)>h3 {
+	background: transparent url("/images/txt_benefits.gif") no-repeat left top;
+}
+
+#css-zen-garden #zen-supporting div:nth-of-type(3)>h3 {
+	background: transparent url("/images/txt_participation.gif") no-repeat left top;
+}
+
+#css-zen-garden #zen-supporting div:nth-of-type(4)>h3 {
+	background: transparent url("/images/txt_requirements.gif") no-repeat left top;
+}
+
+/* INTRO */
+#css-zen-garden header {
+	height: 446px;
+	background: transparent url("/images/background-pageheader.jpg") no-repeat 17px 22px;
+}
+
+#css-zen-garden header>h1,
+#css-zen-garden header>h2 {
+	margin: 0px;
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#css-zen-garden #zen-intro {
+	position: relative;
+}
+
+#css-zen-garden #zen-preamble p {
+	margin: 12px 0px;
+	padding-left: 49px;
+}
+
+#css-zen-garden #zen-preamble abbr {
+	font-weight: bold;
+}
+
+#css-zen-garden #zen-preamble p,
+#css-zen-garden #zen-preamble abbr {
+	font-size: 10pt;
+}
+
+/* MAIN CONTENT */
+#css-zen-garden #zen-supporting div a {
+	color: white;
+}
+
+#css-zen-garden #zen-supporting div abbr {
+	font-weight: bold;
+}
+
+#css-zen-garden #zen-supporting div>p {
+	margin: 12px 0px;
+	padding-left: 49px;
+}
+
+#css-zen-garden #zen-supporting div>p,
+#css-zen-garden #zen-supporting div abbr,
+#css-zen-garden #zen-supporting div a {
+	font-size: 10pt;
+}
+
+#css-zen-garden #zen-summary {
+	top: 186px;
+	left: 336px;
+	width: 172px;
+	height: 160px;
+	position: absolute;
+	background: transparent url("/images/txt-quicksummary.gif") no-repeat left top;
+}
+
+/* FOOTER */
+#css-zen-garden footer {
+	text-align: right;
+	padding: 152px 0px 0px 0px;
+	background: transparent url("/images/background_footer.jpg") no-repeat right bottom;
+}
+
+#css-zen-garden footer a {
+	font-size: 9pt;
+	font-weight: bold;
+	color: #DEC35A;
+	text-decoration: none;
+}
+
+#css-zen-garden footer a:hover {
+	color: white;
+}

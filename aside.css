@@ -35,6 +35,7 @@
 
 #css-zen-garden .sidebar ul li {
 	font-size: 10pt;
+	font-style: italic;
 	padding: 0px 0px 12px 14px;
 	background: transparent url("/images/sidebar-icon.gif") no-repeat left 4px;
 }
@@ -42,7 +43,12 @@
 #css-zen-garden .sidebar ul li a:nth-of-type(1) {
 	display: block;
 	font-weight: bold;
+	font-style: normal;
 	color: #E8D6A3;
+}
+
+#css-zen-garden #design-archives ul li a:nth-of-type(1) {
+	font-weight: normal;
 }
 
 #css-zen-garden .sidebar ul li a:nth-of-type(2),
@@ -58,7 +64,6 @@
 
 /* TITLE IMAGES */
 #css-zen-garden .sidebar div:nth-of-type(1)>h3 {
-
 	background: transparent url("/images/txt_designs.gif") no-repeat left top;
 }
 
@@ -73,6 +78,13 @@
 /* DESIGN DIV */
 #css-zen-garden #design-archives li {
 	padding: 0px 0px 0px 14px;
+}
+
+/* ARCHIVE DIV */
+#css-zen-garden .preamble,
+#css-zen-garden #zen-supporting>div {
+	padding: 25px 0px 37px 0px;
+	background: transparent url("/images/breakrule.gif") no-repeat center bottom;
 }
 
 /* RESOURCES DIV */
@@ -92,14 +104,14 @@
 }
 
 #css-zen-garden #zen-resources li {
-	margin-left: 25px;
-	padding: 0px 0px 0px 14px;
+	margin-left: 20px;
+	padding: 0px 0px 0px 15px;
 	background: transparent url("/images/bullet_resources.gif") no-repeat left 4px;
 }
 
 #zen-summary p:last-of-type {
-	left: 544px;
-	top: 1310px;
+	left: 208px;
+	top: 1125px;
 	z-index: 100;
 	width: 162px;
 	font-size: 9pt;
