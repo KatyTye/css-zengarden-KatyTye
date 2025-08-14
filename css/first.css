@@ -1,0 +1,325 @@
+/* ------------ IMPORTS ------------ */
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+/* ------------ BROWSER RESETS ------------ */
+* {
+	font-size: 15pt;
+	list-style-type: none;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	font-family: georiga;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 13pt;
+	min-height: 100vh;
+	min-width: 100vw;
+	background-color: black;
+}
+
+ul,
+p,
+a {
+	margin: 0;
+	color: #AB9F82;
+}
+
+.extra1 {
+	top: 0%;
+	left: 10px;
+	width: 10px;
+	height: 10px;
+	position: fixed;
+	cursor: pointer;
+	background-color: rgb(17, 255, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MAIN CONTENT STYLING */
+
+/* ------------ BROWSER STYLES ------------ */
+
+/* WRAPPER */
+#css-zen-garden .page-wrapper {
+	width: 750px;
+	position: relative;
+	margin: 0px auto;
+	background-size: contain;
+	background-position: top;
+	background-image: url("/images/background-image.jpg");
+}
+
+#css-zen-garden #zen-supporting>div,
+#css-zen-garden .page-wrapper>section {
+	margin-right: 280px;
+}
+
+#css-zen-garden #zen-summary p:first-of-type {
+	display: none;
+}
+
+/* ARTICLES TOP */
+#css-zen-garden #zen-supporting h3,
+#css-zen-garden #zen-intro div:nth-of-type(2)>h3 {
+	height: 25px;
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 0px 0px -9px 27px;
+}
+
+#css-zen-garden #zen-intro div:nth-of-type(2)>h3 {
+	background: transparent url("/images/txt_sowhatisthisabout.gif") no-repeat left top;
+}
+
+#css-zen-garden #zen-supporting div:nth-of-type(1)>h3 {
+	background: transparent url("/images/txt_participation.gif") no-repeat left top;
+}
+
+#css-zen-garden #zen-supporting div:nth-of-type(2)>h3 {
+	background: transparent url("/images/txt_benefits.gif") no-repeat left top;
+}
+
+#css-zen-garden #zen-supporting div:nth-of-type(3)>h3 {
+	background: transparent url("/images/txt_participation.gif") no-repeat left top;
+}
+
+#css-zen-garden #zen-supporting div:nth-of-type(4)>h3 {
+	background: transparent url("/images/txt_requirements.gif") no-repeat left top;
+}
+
+/* INTRO */
+#css-zen-garden header {
+	height: 446px;
+	background: transparent url("/images/background-pageheader.jpg") no-repeat 17px 22px;
+}
+
+#css-zen-garden header>h1,
+#css-zen-garden header>h2 {
+	margin: 0px;
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#css-zen-garden #zen-intro {
+	position: relative;
+}
+
+#css-zen-garden #zen-preamble p {
+	margin: 12px 0px;
+	padding-left: 49px;
+}
+
+#css-zen-garden #zen-preamble abbr {
+	font-weight: bold;
+}
+
+#css-zen-garden #zen-preamble p,
+#css-zen-garden #zen-preamble abbr {
+	font-size: 10pt;
+}
+
+/* MAIN CONTENT */
+#css-zen-garden #zen-supporting div a {
+	color: white;
+}
+
+#css-zen-garden #zen-supporting div abbr {
+	font-weight: bold;
+}
+
+#css-zen-garden #zen-supporting div>p {
+	margin: 12px 0px;
+	padding-left: 49px;
+}
+
+#css-zen-garden #zen-supporting div>p,
+#css-zen-garden #zen-supporting div abbr,
+#css-zen-garden #zen-supporting div a {
+	font-size: 10pt;
+}
+
+#css-zen-garden #zen-summary {
+	top: 186px;
+	left: 336px;
+	width: 172px;
+	height: 160px;
+	position: absolute;
+	background: transparent url("/images/txt-quicksummary.gif") no-repeat left top;
+}
+
+/* FOOTER */
+#css-zen-garden footer {
+	text-align: right;
+	padding: 152px 0px 0px 0px;
+	background: transparent url("/images/background_footer.jpg") no-repeat right bottom;
+}
+
+#css-zen-garden footer a {
+	font-size: 9pt;
+	font-weight: bold;
+	color: #DEC35A;
+	text-decoration: none;
+}
+
+#css-zen-garden footer a:hover {
+	color: white;
+}
+
+/* SIDE BAR */
+#css-zen-garden .sidebar {
+	top: 75px;
+	left: 516px;
+	width: 205px;
+	position: absolute;
+}
+
+#css-zen-garden .sidebar a {
+	text-decoration: none;
+}
+
+#css-zen-garden .sidebar h3 {
+	margin: 0px;
+	height: 79px;
+	width: 168px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	margin: 0px 0px -17px 0px;
+}
+
+#css-zen-garden .sidebar ul li a {
+	font-size: 10pt;
+}
+
+#css-zen-garden .sidebar a:hover {
+	color: #deb23c;
+	text-decoration: underline;
+}
+
+#css-zen-garden .sidebar nav ul {
+	padding: 0px 0px 0px 20px;
+}
+
+#css-zen-garden .sidebar ul li {
+	font-size: 10pt;
+	font-style: italic;
+	padding: 0px 0px 12px 14px;
+	background: transparent url("/images/sidebar-icon.gif") no-repeat left 4px;
+}
+
+#css-zen-garden .sidebar ul li a:nth-of-type(1) {
+	display: block;
+	font-weight: bold;
+	font-style: normal;
+	color: #E8D6A3;
+}
+
+#css-zen-garden #design-archives ul li a:nth-of-type(1) {
+	font-weight: normal;
+}
+
+#css-zen-garden .sidebar ul li a:nth-of-type(2),
+#css-zen-garden .sidebar ul li {
+	color: #E8D6A3;
+}
+
+#css-zen-garden .sidebar ul,
+#css-zen-garden .sidebar h3 {
+	padding-left: 0px;
+	color: #c5a54c;
+}
+
+/* TITLE IMAGES */
+#css-zen-garden .sidebar div:nth-of-type(1)>h3 {
+	background: transparent url("/images/txt_designs.gif") no-repeat left top;
+}
+
+#css-zen-garden .sidebar div:nth-of-type(2)>h3 {
+	background: transparent url("/images/txt_archives.gif") no-repeat left top;
+}
+
+#css-zen-garden .sidebar div:nth-of-type(3)>h3 {
+	background: transparent url("/images/txt_resources.gif") no-repeat left top;
+}
+
+/* DESIGN DIV */
+#css-zen-garden #design-archives li {
+	padding: 0px 0px 0px 14px;
+}
+
+/* ARCHIVE DIV */
+#css-zen-garden .preamble,
+#css-zen-garden #zen-supporting>div {
+	padding: 25px 0px 37px 0px;
+	background: transparent url("/images/breakrule.gif") no-repeat center bottom;
+}
+
+/* RESOURCES DIV */
+
+#css-zen-garden #zen-resources {
+	top: 950px;
+	left: -37px;
+	width: 271px;
+	height: 539px;
+	position: absolute;
+	padding: 117px 0px 0px 38px;
+	background: transparent url("/images/background_lresources.jpg") no-repeat left top;
+}
+
+#css-zen-garden #zen-resources abbr {
+	font-size: 9pt;
+}
+
+#css-zen-garden #zen-resources li {
+	margin-left: 20px;
+	padding: 0px 0px 0px 15px;
+	background: transparent url("/images/bullet_resources.gif") no-repeat left 4px;
+}
+
+#zen-summary p:last-of-type {
+	left: 208px;
+	top: 1125px;
+	z-index: 100;
+	width: 162px;
+	font-size: 9pt;
+	position: absolute;
+	color: #E8D6A3;
+	padding: 0px 0px 0px 12px;
+	background: transparent url("/images/bullet_download.gif") no-repeat 0px 4px;
+}
+
+#zen-summary p:last-of-type a {
+	font-size: 9pt;
+	color: #DEC35A;
+}
