@@ -5,14 +5,6 @@ let currentIndex = 0;
 
 function changeStylesheet() {
 	(currentIndex <= styles.length - 1) ? currentIndex++ : currentIndex = 1;
-
-	// if (currentIndex <= styles.length -1) {
-	// 	currentIndex++
-	// } else {
-	// 	currentIndex = 0;
-	// }
-
 	mainLink.href = styles[currentIndex - 1];
 }
-
 button.addEventListener("click", changeStylesheet); changeStylesheet();
