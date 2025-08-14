@@ -1,9 +1,6 @@
-/* ------------ IMPORTS ------------ */
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
-
 /* ------------ BROWSER RESETS ------------ */
 * {
-	font-family: georiga;
+	font-family: sans-serif;
 	list-style-type: none;
 	box-sizing: border-box;
 }
@@ -39,3 +36,25 @@ a {
 * body {
 	margin: 50px !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------ BROWSER STYLES ------------ */

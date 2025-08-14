@@ -1,9 +1,6 @@
-/* ------------ IMPORTS ------------ */
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
-
 /* ------------ BROWSER RESETS ------------ */
 * {
-	font-family: georiga;
+	font-family: sans-serif;
 	list-style-type: none;
 	box-sizing: border-box;
 }
@@ -51,6 +48,16 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
+/* ------------ BROWSER STYLES ------------ */
 
 /* BODY */
 #css-zen-garden::before {
@@ -121,7 +128,6 @@ a {
 	font-weight: bold;
 	font-style: normal;
 	margin-bottom: 1em;
-	font-family: sans-serif;
 	letter-spacing: 0.175rem;
 	content: "DR. SHEA\2019S MIRACULOUS";
 	background: url("/images/img-sprite.png") no-repeat center 0.4em;
@@ -165,7 +171,6 @@ a {
 	padding-top: 5em;
 	margin-top: 0.7em;
 	font-weight: normal;
-	font-family: sans-serif;
 	background-size: 1.85em;
 	text-transform: uppercase;
 	background: url("/images/img-bottle.png") no-repeat center top;
@@ -210,7 +215,6 @@ a {
 	text-align: center;
 	max-width: 640px;
 	font-weight: normal;
-	font-family: sans-serif;
 	padding: 0.5em 0 0.55em;
 	text-transform: uppercase;
 	margin: 0.5em auto 0.55em;
